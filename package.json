@@ -1,23 +1,29 @@
 {
-  "name": "cy-bdd-tests",
+  "name": "cypress-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exercises using cypress ",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "cy:run:chrome": "cypress run -b chrome",
-    "cy:run:firefox": "cypress run -b firefox<"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "BDD",
+    "cucucmber",
+    "cypress"
+  ],
+  "author": "Rommel",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^10.11.0"
   },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^19.2.0",
+    "@badeball/cypress-cucumber-preprocessor": "^19.1.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
-    "esbuild": "^0.19.9"
+    "esbuild": "^0.19.5",
+    "events": "^3.3.0",
+    "string_decoder": "^1.3.0",
+    "timers": "^0.1.1",
+    "xml2js": "^0.6.2"
   }
 }
